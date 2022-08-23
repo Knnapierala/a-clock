@@ -112,3 +112,13 @@ body {
   width: 10px;
   height: 25%;
 }
+
+@media screen and (max-width: 680px) {
+  .clock {
+    width: 300px;
+    height: 300px;
+  }
+  .clock .number {
+    font-size: 1.3rem;
+  }
+}
